@@ -352,7 +352,7 @@
 <div class="container">
 
   <header>
-    <h1>🐻 我的記帳本</h1>
+    <h1>💴 財來 財到 馬上發 💵</h1>
     <p>記下每一筆，掌握收支平衡</p>
   </header>
 
@@ -381,19 +381,6 @@
       <div class="label">結餘</div>
       <div class="value balance" id="sumBalance">$0</div>
     </div>
-  </div>
-
-  <!-- 圖表 -->
-  <div class="card">
-    <div class="section-title">📊 趨勢圖表</div>
-    <div class="chart-tabs">
-      <button class="active" data-chart="monthly">近 12 個月</button>
-      <button data-chart="annual">年度總覽</button>
-    </div>
-    <div class="chart-container">
-      <canvas id="trendChart"></canvas>
-    </div>
-    <div class="annual-summary" id="annualSummary"></div>
   </div>
 
   <!-- 新增記帳 -->
@@ -479,6 +466,19 @@
   <div class="card">
     <div class="section-title">📊 支出分類 / 預算</div>
     <div id="breakdown"></div>
+  </div>
+ 
+ <!-- 圖表 -->
+  <div class="card">
+    <div class="section-title">📊 趨勢圖表</div>
+    <div class="chart-tabs">
+      <button class="active" data-chart="monthly">近 12 個月</button>
+      <button data-chart="annual">年度總覽</button>
+    </div>
+    <div class="chart-container">
+      <canvas id="trendChart"></canvas>
+    </div>
+    <div class="annual-summary" id="annualSummary"></div>
   </div>
 
 </div>
