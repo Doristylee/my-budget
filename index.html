@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>我的記帳本</title>
+<title>財來 財到 馬上發</title>
 <link rel="icon" type="image/png" href="icon-512.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -383,19 +383,6 @@
     </div>
   </div>
 
-  <!-- 圖表 -->
-  <div class="card">
-    <div class="section-title">📊 趨勢圖表</div>
-    <div class="chart-tabs">
-      <button class="active" data-chart="monthly">近 12 個月</button>
-      <button data-chart="annual">年度總覽</button>
-    </div>
-    <div class="chart-container">
-      <canvas id="trendChart"></canvas>
-    </div>
-    <div class="annual-summary" id="annualSummary"></div>
-  </div>
-
   <!-- 新增記帳 -->
   <div class="card">
     <div class="section-title">✏️ 新增一筆</div>
@@ -471,6 +458,19 @@
   <div class="card">
     <div class="section-title">📊 支出分類 / 預算</div>
     <div id="breakdown"></div>
+  </div>
+ 
+  <!-- 圖表 -->
+  <div class="card">
+    <div class="section-title">📊 趨勢圖表</div>
+    <div class="chart-tabs">
+      <button class="active" data-chart="monthly">近 12 個月</button>
+      <button data-chart="annual">年度總覽</button>
+    </div>
+    <div class="chart-container">
+      <canvas id="trendChart"></canvas>
+    </div>
+    <div class="annual-summary" id="annualSummary"></div>
   </div>
 
 </div>
